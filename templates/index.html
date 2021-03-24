@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curry in a Hurry! - {{title}}</title>
+</head>
+<body>
+    <h1>Curry in a Hurry!</h1>
+    {% for food_menu in food_menus %}
+        <section>
+            <p>
+                {{ food_menu.title }}: <b>{{ food_menu.description}}</b> 
+               
+            </p>
+        </section>
+    {% endfor %}
+            <p>Chef: Saira Richardson</p>
+            <p>Hungry?!  Why not grab yourself some authentic Pakistani street food!  Trust me you'll not be disappointed!</p>
+            </p><a href="full menu here">Full Menu Here<a></a></p>
+            <p>Opening Times: 5.30pm to 11.00pm (7 days a week)</p>
+</body>
+</html>
